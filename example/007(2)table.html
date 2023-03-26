@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="10"> <!--table:표 자체, border 테두리-->
+    <tr><!--table row 줄 하나(행)-->
+        <th>이름</th><!--table heading 행의 제목-->
+        <th>성별</th>
+        <th>직업</th>
+        <th>나이</th>
+        <th colspan="2">거주지</th><!--가로로 몇 개의 열을 합칠지(병합)-->
+    </tr>
+    <tr>
+        <td>김★★</td><!--table data 각 행의 내용(데이터)-->
+        <td>남</td>
+        <td></td>
+        <td>49세</td>
+        <td>서울시</td>
+        <td>마포구</td>
+    </tr>
+    <tr>
+        <td>한☆☆</td>
+        <td>여</td>
+        <td>공무원</td>
+        <td>32세</td>
+        <td>경기도</td>
+        <td>화성시</td>
+    </tr>
+    <tr>
+        <td rowspan="2">최○○</td><!--세로로 몇 개의 행을 합칠지(병합)-->
+        <td rowspan="2">여</td>
+        <td>작가</td>
+        <td rowspan="2">48세</td>
+        <td rowspan="2">경기도</td>
+        <td rowspan="2">남양주시</td>
+    </tr>
+    <tr>
+        <td>자영업</td>
+    </tr>
+    </table>
+</body>
+</html>
