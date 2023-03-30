@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!--source, alternative-->
+    <img src="aefw3f" alt="이미지가 없습니다.">
+    <!--alt: 이미지가 없을 때 보여줄 문구-->
+    <br/>
+
+    <img src="http://placehold.it/200x200" alt="200픽셀 정사각형 이미지">
+    <br/>
+    
+    <img src="http://placehold.it/200x200" alt="100픽셀 정사각형 이미지"
+    width="100" height="100" />
+    <!--alt: 최근에는 이미지에 대한 설명으로도 많이 이용(장애인 지원 목적)-->
+    <!--width, height: 최근에는 스타일로 지정하는 경우가 많아 거의 사용하지 않음-->
+
+    <br/>
+    <!--
+    URI: Uniform Resource Identifier(식별자, URL, URN을 포함)
+        학생을 부르는 방법
+    URL: Uniform Resource Location(위치)
+        왼쪽에서 2번째, 앞에서 2번째(2,2)
+    URN: Uniform Resource Name(이름)
+        홍길동-1, 홍길동-2
+    -->
+    <a href="https://stackoverflow.com/questions/176264/what-is-the-difference-between-a-uri-a-url-and-a-urn">URI, URL, URN 설명</a>
+
+    <!--
+    src 안에 넣을 수 있는 것
+    1. 절대 경로(서울특별시 강서구 마곡동)
+        e.g. http://placehold.it/200x200
+    2. 상대 경로(우리 집에서 위로 올라가서 왼쪽 첫 번째 방에 있는 책상 위에 있는 키)
+        e.g. /test/example/aa.jpg(폴더위치)
+        /: 루트
+        .: 현재 위치
+        ..: 위의 위치
+            e.g. 같은 폴더에 있을 때는 src="a.jpeg", src="./a.jpeg"로 입력 가능
+            e.g. 다른 폴더에 있을 때는 src="folder/b.jpeg", src="./folder/b.jpeg"
+                                       src="../c.jpeg"와 같은 형태로 입력 가능
+    -->
+</body>
+</html>
