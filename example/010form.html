@@ -1,0 +1,40 @@
+<!--태그 쉽게 입력하기: tab-->
+<!--여러 개 생성하기 *10-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""><!--입력 양식-->
+    <label for="name">이름: </label>
+    <!--label에 for 속성값을 input id에 입력하면
+        label 클릭 시 해당 입력란으로 커서 이동-->
+    <input type="text" id="name" value="성명"><!--입력란-->
+    <br/><!--br 또는 table로 구획을 나누거나 디자인을 꾸밈-->
+    <label for="password">암호: </label>
+    <input type="password" id="password" value="패스워드">
+    <!--type이 password면 입력값이 가려짐--><br/>
+    <br/>
+    유입경로(모두 선택)<br/>
+    <label for="인터넷">인터넷</label>
+    <input type="checkbox" id="인터넷">
+    <label for="지인">지인</label>
+    <input type="checkbox" id="지인">
+    <label for="TV광고">TV광고</label>
+    <input type="checkbox" id="TV광고">
+    <br/>
+    <br/>
+    <label>성별</label><!--radio는 같은 name 속성 안에서 하나만 선택 가능--><br/>
+    남:<input type="radio" name="gender">
+    여:<input type="radio" name="gender">
+    그외:<input type="radio" name="gender">
+    <br/>
+    <br/>
+    <input type="submit" value="제출"><!--제출 버튼-->
+    </form>
+</body>
+</html>
